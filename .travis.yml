@@ -7,7 +7,9 @@ python:
   - "3.5"
   - "3.4"
   - "2.7"
-# Install any dependencies of our package:
-install: pip install requests
+# Install any dependencies for running the tests:
+install: pip install codecov pytest-cov
 # command to run tests
-script: py.test
+script: py.test --cov=package_template --cov-config .coveragerc
+after_success:
+  codecov
