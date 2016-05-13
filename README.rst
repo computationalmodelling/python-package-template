@@ -4,6 +4,6 @@
 Attempt to provide a good-practice template for Python packages,
 making use of cloud-hosted services.
 
-Documentation `on Readthedocs <http://python-package-template.readthedocs.io/>`__
+Documentation `on Readthedocs <http://python-package-template.readthedocs.io/>`__.
 
 Authors: Thomas Kluyver, Hans Fangohr
