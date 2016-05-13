@@ -1,0 +1,13 @@
+# This is a simple Travis config for a project that only needs to install pure
+# Python dependencies. For more complex setups, you can use conda on Travis:
+# http://conda.pydata.org/docs/travis.html 
+
+language: python
+python:
+  - "3.5"
+  - "3.4"
+  - "2.7"
+# Install any dependencies of our package:
+install: pip install requests
+# command to run tests
+script: py.test
